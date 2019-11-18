@@ -1,0 +1,26 @@
+/*PRIMER PUNTO
+ .fuente1 {
+  color: blue;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.fuente2 {
+  color: violet;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+ */
+
+/* TERCER PUNTO */
+
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 2px;
+}
+.caja {
+  width: 1fr;
+  height: 50px;
+  background: grey;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles/paginaDosStyles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="global">
+      <aside>
+        <div class="infoUsuario">
+          <img id="foto" src="" alt="" />
+          <div id="usuario"></div>
+        </div>
+        <div class="listasCreadas">
+          <button class="boton">Añadir una nueva lista</button>
+          <p>lista uno</p>
+          <p>lista dos</p>
+        </div>
+      </aside>
+      <section>
+        <h1 class="titulo">Listas de tareas del Bootcamp</h1>
+        <div class="agregarTarea">
+          <input id="input" type="text" placeholder="Ingresa tu nueva tarea" />
+          <button class="botonAgregarTarea">Añadir tarea</button>
+          <div class="errorTarea"></div>
+        </div>
+        <div class="tareasPendientes">
+          <h1>Mis tareas pendientes</h1>
+          <div class="listaTareasPendientes"></div>
+        </div>
+      </section>
+    </div>
+    <script src="js/paginaDosApp.js"></script>
+  </body>
+</html>

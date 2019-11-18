@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.global {
+  background-image: url(../img/Fondo_.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+nav {
+  background-color: rgba(0, 0, 0, 0.616);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
+}
+.registro {
+  width: 100%;
+  height: 585px;
+  display: flex;
+  justify-content: flex-end;
+}
+form {
+  background-color: gray;
+  height: 70%;
+  display: flex;
+  margin: 100px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+form p {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+form input {
+  margin: 10px;
+}
+.boton {
+  color: white;
+  background-color: orangered;
+  border: none;
+  height: 20px;
+  margin: 5px;
+}
+.errores {
+  color: coral;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.616);
+  color: white;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+}

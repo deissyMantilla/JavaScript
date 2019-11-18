@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(66, 109, 158);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "Times New Roman", Times, serif;
+}
+.botones {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+button {
+  width: 60px;
+  height: 40px;
+}
+p {
+  font-size: 20px;
+  width: 100%;
+  color: white;
+}
+input {
+  width: 70%;
+}

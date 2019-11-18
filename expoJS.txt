@@ -1,0 +1,9 @@
+JavaScript
+
+Lenguaje de programacion, orientado a la interactividad con el cliente, efectos, animaciones, acciones.
+JavaScript funciona en los exploradores, los exploradores ya tienen un motor para entender JavaScript.
+Debilmente tipado: no hay que definir que tipo de dato es la variable.
+
+Programacion orientada a objeros: paradigma de la programacion
+Procedural: linea por linea.
+Funcional:
